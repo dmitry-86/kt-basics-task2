@@ -1,6 +1,7 @@
 fun main() {
-    val likes = 61.toString()
-    val result = if(likes.endsWith("1") && likes!="11")
+    val likes = 311
+
+    val result = if(likes%10==1 && likes%100!=11)
         "человеку"
     else
         "людям"
